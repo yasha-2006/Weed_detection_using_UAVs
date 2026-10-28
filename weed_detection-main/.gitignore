@@ -47,3 +47,25 @@ snapshots/*.png
 weed_samples/images/*.jpg
 weed_samples/labels/*.txt
 !weed_samples/classes.txt
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
